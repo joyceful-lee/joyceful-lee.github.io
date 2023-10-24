@@ -6,30 +6,176 @@
   <component name="ChangeListManager">
     <list default="true" id="1eae7068-b5f9-4cdf-916c-5b80e48ad5b1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/_posts/2023-10-23-welcome-to-jekyll.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/about.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/jek/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/jek/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/jek/CNAME" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/jek/Gemfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/jek/Gemfile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/jek/_config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/jek/_posts/2023-10-23-welcome-to-jekyll.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/jek/about.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/jek/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/jek/index.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/.github/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/_includes/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/_includes/about/skills.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/_includes/about/timeline.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/_includes/analytics.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/_includes/blog/disqus.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/_includes/blog/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/_includes/blog/post-card.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/_includes/blog/search.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/_includes/blog/tags.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/_includes/elements/button.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/_includes/elements/carousel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/_includes/elements/figure.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/_includes/elements/github-edit-footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/_includes/elements/highlight.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/_includes/elements/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/_includes/elements/video.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/_includes/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/_includes/head.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/_includes/landing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/_includes/navbar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/_includes/projects/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/_includes/projects/project-card.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/_includes/scripts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/_includes/social.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/_layouts/default.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/_layouts/element.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/_layouts/page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/_layouts/post.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/_sass/_404.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/_sass/_base.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/_sass/_blog.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/_sass/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/_sass/_landing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/_sass/_markdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/_sass/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/_sass/_projects.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/_sass/_theme-dark.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/_sass/_theme.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/_sass/_timeline.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/_sass/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/_sass/autumn.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/_sass/native.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/_sass/portfolYOU.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/assets/css/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/assets/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/assets/js/theme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/Gemfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/_config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/_data/other-skills.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/_data/programming-skills.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/_data/social-media.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/_data/timeline.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/_elements/01-headers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/_elements/02-emphasis.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/_elements/03-highlight.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/_elements/04-blockquotes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/_elements/05-links.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/_elements/06-line-breaks.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/_elements/07-horizontal-rule.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/_elements/08-code.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/_elements/09-syntax-highlighting.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/_elements/10-github-gists.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/_elements/11-buttons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/_elements/12-ordered-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/_elements/13-unordered-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/_elements/14-list-group.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/_elements/15-table-of-contents.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/_elements/16-images.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/_elements/17-figures.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/_elements/18-carousel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/_elements/19-videos.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/_elements/20-tables.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/_elements/21-task-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/_posts/2015-09-25-how-to-undo-your-git-failure.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/_posts/2016-02-09-what-is-version-control.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/_posts/2016-04-17-do-not-go-gentle-into-that-good-night.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/_posts/2016-07-23-a-better-hello-world.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/_posts/2017-01-01-github-flow.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/_posts/2018-05-09-four-lessons-after-eleven-years-in-silicon-valley.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/_posts/2018-12-01-what-the-heck-is-a-callback.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/_posts/2018-12-10-clean-coding.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/_posts/2019-02-15-learn-react-js.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/_posts/2019-02-20-digital-minimalism.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/_projects/(1) PlaceHolder Project.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/_projects/(2) Awesome Project.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/_projects/(3) Empty Project.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/_projects/(4) VVG on GitHub.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/_projects/(5) The Fabulous.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/_projects/(6) Dummy Project.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/documentation/docs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/documentation/elements.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/documentation/github.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/documentation/partials/00-common/01-repo-buttons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/documentation/partials/00-common/02-description.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/documentation/partials/00-common/03-toc.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/documentation/partials/01-features.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/documentation/partials/02-installation.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/documentation/partials/03-customization.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/documentation/partials/04-adding-content.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/documentation/partials/04-adding-content/01-local-projects.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/documentation/partials/04-adding-content/02-remote-projects.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/documentation/partials/04-adding-content/03-posts.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/documentation/partials/04-adding-content/04-pages.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/documentation/partials/04-adding-content/05-external-content.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/documentation/partials/04-adding-content/06-skills.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/documentation/partials/04-adding-content/07-skills-categories.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/documentation/partials/04-adding-content/08-timeline-events.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/documentation/partials/04-adding-content/09-social-networks.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/documentation/partials/05-dependencies.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/documentation/partials/06-credits.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/pages/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/pages/about.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/pages/blog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/pages/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/pages/projects.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/pages/search.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/docs/pages/tags.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/portfolyou-jekyll-theme.gemspec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/screenshot.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/test/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/test/Gemfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YoussefRaafatNasry-portfolYOU-d743dc3/test/_config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Gemfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Gemfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_data/other-skills.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_data/programming-skills.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_data/social-media.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_data/timeline.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_posts/2015-09-25-how-to-undo-your-git-failure.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_posts/2016-02-09-what-is-version-control.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_posts/2016-04-17-do-not-go-gentle-into-that-good-night.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_posts/2016-07-23-a-better-hello-world.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_posts/2017-01-01-github-flow.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_posts/2018-05-09-four-lessons-after-eleven-years-in-silicon-valley.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_posts/2018-12-01-what-the-heck-is-a-callback.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_posts/2018-12-10-clean-coding.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_posts/2019-02-15-learn-react-js.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_posts/2019-02-20-digital-minimalism.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_projects/(1) PlaceHolder Project.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_projects/(2) Awesome Project.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_projects/(3) Empty Project.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_projects/(4) VVG on GitHub.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_projects/(5) The Fabulous.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_projects/(6) Dummy Project.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/pages/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/pages/about.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/pages/blog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/pages/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/pages/projects.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/pages/search.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/pages/tags.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,12 +188,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="joyceful-lee.github.io" />

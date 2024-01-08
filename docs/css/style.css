@@ -1,506 +1,648 @@
-.container {
-  display: -webkit-box;
-  display: flex;
-  justify-content: space-between;
-  -webkit-box-align: stretch;
-  align-items: center;
-  height: 60px;
-  background: #434343;
+html {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.15
 }
 
-.logo {
-  -webkit-box-ordinal-group: 2;
-  order: 1;
-  font-size: 32px;
-  line-height: 32px;
-  padding: 10px;
-}
-
-.item {
-  color: rgba(255, 255, 255, 0.88);
-  text-decoration: none;
-  font-family: 'Fira Mono';
-  padding: 24px;
-  color: #fff;
-}
-
-.item:hover {
-  color: #000;
-}
-
-.item:nth-of-type(n+3) {
-  -webkit-box-ordinal-group: 3;
-  order: 2;
-}
-
-/* underline effect */
-.underlineEffects a {
-  color: #fff;
-  text-transform: uppercase;
-  text-decoration: none;
-  letter-spacing: 0.15em;
-  display: inline-block;
-  padding: 10px 15px;
-  position: relative;
-}
-
-.underlineEffects a:after {
-  background: none repeat scroll 0 0 transparent;
-  bottom: 0;
-  content: "";
-  display: block;
-  height: 2px;
-  left: 50%;
-  position: absolute;
-  background: #0DA800;
-  transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  width: 0;
-}
-
-.underlineEffects a:hover:after {
-  width: 100%;
-  left: 0;
-}
-
-/*body*/
 body {
-  background-color: #434343;
+    margin: 0
+}
+
+main {
+    display: block
+}
+
+h1 {
+    margin: .67em 0;
+    font-size: 2em
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible
+}
+
+pre {
+    font-family: monospace,monospace;
+    font-size: 1em
+}
+
+a {
+    background-color: #0000
+}
+
+abbr[title] {
+    border-bottom: none;
+    -webkit-text-decoration: underline dotted;
+    text-decoration: underline dotted
+}
+
+b,strong {
+    font-weight: bolder
+}
+
+code,kbd,samp {
+    font-family: monospace,monospace;
+    font-size: 1em
+}
+
+small {
+    font-size: 80%
+}
+
+sub,sup {
+    vertical-align: baseline;
+    font-size: 75%;
+    line-height: 0;
+    position: relative
+}
+
+sub {
+    bottom: -.25em
+}
+
+sup {
+    top: -.5em
+}
+
+img {
+    border-style: none
+}
+
+button,input,optgroup,select,textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15
+}
+
+button,input {
+    overflow: visible
+}
+
+button,select {
+    text-transform: none
+}
+
+button,[type=button],[type=reset],[type=submit] {
+    -webkit-appearance: button
+}
+
+button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner {
+    border-style: none;
+    padding: 0
+}
+
+button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring {
+    outline: 1px dotted ButtonText
+}
+
+fieldset {
+    padding: .35em .75em .625em
+}
+
+legend {
+    box-sizing: border-box;
+    color: inherit;
+    max-width: 100%;
+    white-space: normal;
+    padding: 0;
+    display: table
+}
+
+progress {
+    vertical-align: baseline
+}
+
+textarea {
+    overflow: auto
+}
+
+[type=checkbox],[type=radio] {
+    box-sizing: border-box;
+    padding: 0
+}
+
+[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button {
+    height: auto
+}
+
+[type=search] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px
+}
+
+[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+
+details {
+    display: block
+}
+
+summary {
+    display: list-item
+}
+
+template,[hidden] {
+    display: none
+}
+
+@font-face {
+    font-family: 'Nunito', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+}
+
+body {
+    color: #d1d1d1;
+    background: #f4f8ed;
+    font-family: Nunito, sans-serif
+}
+
+h1,h2 {
+    font-weight: 100
+}
+
+.main {
+    box-sizing: border-box;
+    display: block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-y: auto
+}
+
+.main-container {
+    max-width: 100vw;
+    height: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex
+}
+
+@media screen and (min-width: 900px) {
+    .main-container {
+        height:100vh;
+        max-height: 100vh;
+        align-items: center;
+        overflow: hidden
+    }
+}
+
+.main-container .main-container-inner {
+    width: 100vw;
+    max-width: 1280px;
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 7.5px;
+    display: flex;
+    position: relative
+}
+
+@media screen and (min-width: 900px) {
+    .main-container .main-container-inner {
+        max-height:791px;
+        height: 100vh
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .main-container .main-container-inner {
+        padding:20px
+    }
+}
+
+.main-container .main-container-inner .inner-container {
+    -webkit-user-select: none;
+    user-select: none;
+    z-index: 2;
+    background: #1d1d20;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    padding: 15px;
+    overflow: hidden
+}
+
+@media screen and (min-width: 500px) {
+    .main-container .main-container-inner .inner-container {
+        padding:30px
+    }
+}
+
+.main-container .main-container-inner .inner-container header {
+    justify-content: space-between;
+    display: flex
+}
+
+.main-container .main-container-inner .inner-container header .logo {
+    z-index: 9;
+    cursor: pointer;
+    transition: all 50ms ease-in-out
+}
+
+.main-container .main-container-inner .inner-container header .logo.mousedown {
+    transform: scale(.9)
+}
+
+.main-container .main-container-inner .inner-container header .logo svg {
+    height: 50px;
+    width: 50px;
+    margin-left: -8px;
+    transition: all .1s ease-in-out
+}
+
+.main-container .main-container-inner .inner-container header .logo svg:hover {
+    transform: scale(1.1)
+}
+
+.main-container .main-container-inner .inner-container header ul {
+    list-style: none;
+    display: flex
+}
+
+.main-container .main-container-inner .inner-container header ul .email svg {
+    fill: #777;
+    transition: all .1s ease-in-out
+}
+
+.main-container .main-container-inner .inner-container header ul .email svg g {
+    fill: #777
+}
+
+.main-container .main-container-inner .inner-container header ul .email svg:hover {
+    transform: scale(1.2)
+}
+
+.main-container .main-container-inner .inner-container header ul .email svg:hover g {
+    fill: red
+}
+
+.main-container .main-container-inner .inner-container header ul .github svg {
+    transition: all .1s ease-in-out
+}
+
+.main-container .main-container-inner .inner-container header ul .github svg .cls-1 {
+    fill: #777
+}
+
+.main-container .main-container-inner .inner-container header ul .github svg:hover {
+    transform: scale(1.2)
+}
+
+.main-container .main-container-inner .inner-container header ul .github svg:hover .cls-1 {
+    fill: #ccc
+}
+
+.main-container .main-container-inner .inner-container header ul .npm svg {
+    transition: all .2s ease-in-out
+}
+
+.main-container .main-container-inner .inner-container header ul .npm svg #Selection1 {
+    fill: #777
+}
+
+.main-container .main-container-inner .inner-container header ul .npm svg #Selection2 {
+    fill: #0000
+}
+
+.main-container .main-container-inner .inner-container header ul .npm svg:hover {
+    transform: scale(1.2)
+}
+
+.main-container .main-container-inner .inner-container header ul .npm svg:hover #Selection1 {
+    fill: #fff
+}
+
+.main-container .main-container-inner .inner-container header ul .npm svg:hover #Selection2 {
+    fill: red
+}
+
+.main-container .main-container-inner .inner-container header ul a {
+    color: #ccc;
+    margin-left: 30px;
+    line-height: 1.5;
+    display: flex
+}
+
+.main-container .main-container-inner .inner-container header ul a svg {
+    width: 25px;
+    height: 25px;
+    margin-top: -15px;
+    transition: transform .2s ease-in-out;
+    transform: scale(1.01)
+}
+
+.main-container .main-container-inner .inner-container header ul a svg:hover {
+    transform: scale(1.2)
+}
+
+.main-container .main-container-inner .inner-container main.projects-overview {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-font-smoothing: subpixel-antialiased;
+    box-sizing: border-box;
+    min-height: calc(100% - 102px);
+    height: calc(100% - 102px);
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    transform: translateZ(0)
+}
+
+@media screen and (min-width: 900px) {
+    .main-container .main-container-inner .inner-container main.projects-overview {
+        flex-direction:row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 50px
+    }
+
+    .main-container .main-container-inner .inner-container main.projects-overview div.spacer {
+        max-width: 130px;
+        min-width: 90px
+    }
+
+    .main-container .main-container-inner .inner-container main.projects-overview div {
+        flex: 1
+    }
+}
+
+.main-container .main-container-inner .inner-container main.projects-overview .main-message {
+    flex-basis: 53.4752%
 }
 
 
-* {
-  box-sizing: border-box; }
+.main-container .main-container-inner .inner-container main.projects-overview .main-message h1 {
+    margin-bottom: 20px;
+    font-family: Nunito;
+    font-size: 50px;
+    font-weight: 100
+}
 
-html, body {
-  min-height: 100%;
-  height: 100%;
-  background-image: url(http://theartmad.com/wp-content/uploads/Dark-Grey-Texture-Wallpaper-5.jpg);
-  background-size: cover;
-  background-position: top center;
-  font-family: helvetica neue, helvetica, arial, sans-serif;
-  font-weight: 200; }
-  html.modal-active, body.modal-active {
-    overflow: hidden; }
+@media screen and (min-width: 900px) {
+    .main-container .main-container-inner .inner-container main.projects-overview .main-message h1 {
+        margin-top:0;
+        font-size: 90px
+    }
+}
 
-#modal-container {
-  position: fixed;
-  display: table;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  transform: scale(0);
-  z-index: 1; }
-  #modal-container.one {
-    transform: scaleY(0.01) scaleX(0);
-    animation: unfoldIn 1s cubic-bezier(0.165, 0.84, 0.44, 1) forwards; }
-    #modal-container.one .modal-background .modal {
-      transform: scale(0);
-      animation: zoomIn 0.5s 0.8s cubic-bezier(0.165, 0.84, 0.44, 1) forwards; }
-    #modal-container.one.out {
-      transform: scale(1);
-      animation: unfoldOut 1s 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) forwards; }
-      #modal-container.one.out .modal-background .modal {
-        animation: zoomOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards; }
-  #modal-container.two {
-    transform: scale(1); }
-    #modal-container.two .modal-background {
-      background: rgba(0, 0, 0, 0);
-      animation: fadeIn 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards; }
-      #modal-container.two .modal-background .modal {
-        opacity: 0;
-        animation: scaleUp 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards; }
-    #modal-container.two + .content {
-      animation: scaleBack 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards; }
-    #modal-container.two.out {
-      animation: quickScaleDown 0s .5s linear forwards; }
-      #modal-container.two.out .modal-background {
-        animation: fadeOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards; }
-        #modal-container.two.out .modal-background .modal {
-          animation: scaleDown 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards; }
-      #modal-container.two.out + .content {
-        animation: scaleForward 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards; }
-  #modal-container.three {
-    z-index: 0;
-    transform: scale(1); }
-    #modal-container.three .modal-background {
-      background: rgba(0, 0, 0, 0.6); }
-      #modal-container.three .modal-background .modal {
-        animation: moveUp 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards; }
-    #modal-container.three + .content {
-      z-index: 1;
-      animation: slideUpLarge 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards; }
-    #modal-container.three.out .modal-background .modal {
-      animation: moveDown 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards; }
-    #modal-container.three.out + .content {
-      animation: slideDownLarge 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards; }
-  #modal-container.four {
-    z-index: 0;
-    transform: scale(1); }
-    #modal-container.four .modal-background {
-      background: rgba(0, 0, 0, 0.7); }
-      #modal-container.four .modal-background .modal {
-        animation: blowUpModal 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards; }
-    #modal-container.four + .content {
-      z-index: 1;
-      animation: blowUpContent 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards; }
-    #modal-container.four.out .modal-background .modal {
-      animation: blowUpModalTwo 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards; }
-    #modal-container.four.out + .content {
-      animation: blowUpContentTwo 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards; }
-  #modal-container.five {
-    transform: scale(1); }
-    #modal-container.five .modal-background {
-      background: rgba(0, 0, 0, 0);
-      animation: fadeIn 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards; }
-      #modal-container.five .modal-background .modal {
-        transform: translateX(-1500px);
-        animation: roadRunnerIn 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) forwards; }
-    #modal-container.five.out {
-      animation: quickScaleDown 0s .5s linear forwards; }
-      #modal-container.five.out .modal-background {
-        animation: fadeOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards; }
-        #modal-container.five.out .modal-background .modal {
-          animation: roadRunnerOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards; }
-  #modal-container.six {
-    transform: scale(1); }
-    #modal-container.six .modal-background {
-      background: rgba(0, 0, 0, 0);
-      animation: fadeIn 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards; }
-      #modal-container.six .modal-background .modal {
-        background-color: transparent;
-        animation: modalFadeIn 0.5s 0.8s cubic-bezier(0.165, 0.84, 0.44, 1) forwards; }
-        #modal-container.six .modal-background .modal h2, #modal-container.six .modal-background .modal p {
-          opacity: 0;
-          position: relative;
-          animation: modalContentFadeIn 0.5s 1s cubic-bezier(0.165, 0.84, 0.44, 1) forwards; }
-        #modal-container.six .modal-background .modal .modal-svg rect {
-          animation: sketchIn 0.5s 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) forwards; }
-    #modal-container.six.out {
-      animation: quickScaleDown 0s .5s linear forwards; }
-      #modal-container.six.out .modal-background {
-        animation: fadeOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards; }
-        #modal-container.six.out .modal-background .modal {
-          animation: modalFadeOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards; }
-          #modal-container.six.out .modal-background .modal h2, #modal-container.six.out .modal-background .modal p {
-            animation: modalContentFadeOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards; }
-          #modal-container.six.out .modal-background .modal .modal-svg rect {
-            animation: sketchOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards; }
-  #modal-container.seven {
-    transform: scale(1); }
-    #modal-container.seven .modal-background {
-      background: rgba(0, 0, 0, 0);
-      animation: fadeIn 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards; }
-      #modal-container.seven .modal-background .modal {
-        height: 75px;
-        width: 75px;
-        border-radius: 75px;
-        overflow: hidden;
-        animation: bondJamesBond 1.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards; }
-        #modal-container.seven .modal-background .modal h2, #modal-container.seven .modal-background .modal p {
-          opacity: 0;
-          position: relative;
-          animation: modalContentFadeIn .5s 1.4s linear forwards; }
-    #modal-container.seven.out {
-      animation: slowFade .5s 1.5s linear forwards; }
-      #modal-container.seven.out .modal-background {
-        background-color: rgba(0, 0, 0, 0.7);
-        animation: fadeToRed 2s cubic-bezier(0.165, 0.84, 0.44, 1) forwards; }
-        #modal-container.seven.out .modal-background .modal {
-          border-radius: 3px;
-          height: 162px;
-          width: 227px;
-          animation: killShot 1s cubic-bezier(0.165, 0.84, 0.44, 1) forwards; }
-          #modal-container.seven.out .modal-background .modal h2, #modal-container.seven.out .modal-background .modal p {
-            animation: modalContentFadeOut 0.5s 0.5 cubic-bezier(0.165, 0.84, 0.44, 1) forwards; }
-  #modal-container .modal-background {
-    display: table-cell;
-    background: rgba(0, 0, 0, 0.8);
-    text-align: center;
-    vertical-align: middle; }
-    #modal-container .modal-background .modal {
-      background: white;
-      padding: 50px;
-      display: inline-block;
-      border-radius: 3px;
-      font-weight: 300;
-      position: relative; }
-      #modal-container .modal-background .modal h2 {
-        font-size: 25px;
-        line-height: 25px;
-        margin-bottom: 15px; }
-      #modal-container .modal-background .modal p {
-        font-size: 18px;
-        line-height: 22px; }
-      #modal-container .modal-background .modal .modal-svg {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        border-radius: 3px; }
-        #modal-container .modal-background .modal .modal-svg rect {
-          stroke: #fff;
-          stroke-width: 2px;
-          stroke-dasharray: 778;
-          stroke-dashoffset: 778; }
+.main-container .main-container-inner .inner-container main.projects-overview .main-message span {
+    margin-left: 30px;
+    font-size: .9em;
+    font-weight: 100;
+    line-height: 1.6;
+    display: block;
+    position: relative
+}
 
-.content {
-  min-height: 100%;
-  height: 100%;
-  background: white;
-  position: relative;
-  z-index: 0; }
-  .content h1 {
-    padding: 75px 0 30px 0;
-    text-align: center;
+.main-container .main-container-inner .inner-container main.projects-overview .main-message span:before {
+    content: " ";
+    width: 2px;
+    background: linear-gradient(0deg,var(--grad-2)0%,var(--grad-1)100%);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -30px
+}
+
+.main-container .main-container-inner .inner-container main.projects-overview .main-projects {
+    flex-basis: 30.9017%
+}
+
+.main-container .main-container-inner .inner-container main.projects-overview .main-projects h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: Nunito;
     font-size: 30px;
-    line-height: 30px; }
-  .content .buttons {
-    max-width: 800px;
-    margin: 0 auto;
+    font-weight: 100
+}
+
+.main-container .main-container-inner .inner-container main.projects-overview .main-projects div.project-wrapper {
+    font-size: 14px;
+    position: relative
+}
+
+.main-container .main-container-inner .inner-container main.projects-overview .main-projects div.project-wrapper:before {
+    content: " ";
+    width: 90px;
+    height: 90px;
+    background: linear-gradient(135deg,var(--grad-1)0%,var(--grad-2)50%,var(--grad-1)100%);
+    opacity: 1;
+    border-top-left-radius: 8px;
+    transition: all .3s ease-in-out;
+    position: absolute;
+    top: -2px;
+    bottom: 0;
+    left: -2px
+}
+
+.main-container .main-container-inner .inner-container main.projects-overview .main-projects div.project-wrapper:hover:before {
+    opacity: 0
+}
+
+.main-container .main-container-inner .inner-container main.projects-overview .main-projects div.project-wrapper:after {
+    content: " ";
+    width: 90px;
+    height: 90px;
+    background: linear-gradient(135deg,var(--grad-2)0%,var(--grad-1)50%,var(--grad-2)100%);
+    opacity: 0;
+    border-top-left-radius: 8px;
+    transition: all .3s ease-in-out;
+    position: absolute;
+    top: -2px;
+    bottom: 0;
+    left: -2px
+}
+
+.main-container .main-container-inner .inner-container main.projects-overview .main-projects div.project-wrapper:hover:after {
+    opacity: 1
+}
+
+.main-container .main-container-inner .inner-container main.projects-overview .main-projects div.project-wrapper div {
+    z-index: 1;
+    background: #1d1d20;
+    border-top-left-radius: 7px;
+    flex-direction: column;
+    margin-left: 0;
+    padding: 30px 30px 0;
+    display: flex;
+    position: relative
+}
+
+.main-container .main-container-inner .inner-container main.projects-overview .main-projects div.project-wrapper div a {
+    color: #ccc;
+    margin-bottom: 15px;
+    margin-left: 0;
+    padding-bottom: 5px;
+    line-height: 1.5;
+    text-decoration: none
+}
+
+.main-container .main-container-inner .inner-container main.projects-overview .main-projects div.project-wrapper div a:hover {
+    color: #fff;
+    letter-spacing: 1px
+}
+
+.main-container .main-container-inner .inner-container main.projects-overview .main-projects div.project-wrapper div a span {
+    transition: all .3s ease-in-out;
+    display: inline-block;
+    position: relative
+}
+
+.main-container .main-container-inner .inner-container main.projects-overview .main-projects div.project-wrapper div a span:before {
+    content: "";
+    height: 1px;
+    width: 100%;
+    background: linear-gradient(270deg,var(--grad-2)0%,var(--grad-1)100%);
+    opacity: 1;
+    transition: all .3s ease-in-out;
+    display: inline-block;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 0
+}
+
+.main-container .main-container-inner .inner-container main.projects-overview .main-projects div.project-wrapper div a:hover span:before {
+    opacity: 0
+}
+
+.main-container .main-container-inner .inner-container main.projects-overview .main-projects div.project-wrapper div a span:after {
+    content: "";
+    height: 1px;
+    width: 100%;
+    background: linear-gradient(270deg,var(--grad-1)0%,var(--grad-2)100%);
+    opacity: 0;
+    transition: all .3s ease-in-out;
+    display: inline-block;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 0
+}
+
+.main-container .main-container-inner .inner-container main.projects-overview .main-projects div.project-wrapper div a:hover span:after {
+    opacity: 1
+}
+
+.main-container .main-container-inner .inner-container main.projects-overview .main-message {
+    position: relative
+}
+
+.main-container .main-container-inner .inner-container main.projects-overview .main-message .welcome-message {
+    transform-origin: 0;
+    opacity: 1;
+    transition: all .2s linear;
+    transform: scaleX(1)
+}
+
+.main-container .main-container-inner .inner-container main.projects-overview .main-message .individual-project {
+    transform-origin: 100%;
+    opacity: 0;
+    width: 100%;
+    transition: all .2s linear;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scaleX(0)
+}
+
+.main-container .main-container-inner .inner-container main.projects-overview .main-message .individual-project h2 {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-family: Nunito;
+    font-size: 30px;
+    font-weight: 100
+}
+
+@media screen and (max-width: 889px) {
+    .main-container .main-container-inner .inner-container main.projects-overview .main-message .individual-project h2 {
+        margin-top:10px;
+        font-size: 20px
+    }
+}
+
+.main-container .main-container-inner .inner-container main.projects-overview .main-message .individual-project button {
+    border: 0 solid #000;
+    margin-right: 25px;
     padding: 0;
-    text-align: center; }
-    .content .buttons .button {
-      display: inline-block;
-      text-align: center;
-      padding: 10px 15px;
-      margin: 10px;
-      background: red;
-      font-size: 18px;
-      background-color: #efefef;
-      border-radius: 3px;
-      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-      cursor: pointer; }
-      .content .buttons .button:hover {
-        color: white;
-        background: #009bd5; }
+    position: relative
+}
 
-@keyframes unfoldIn {
-  0% {
-    transform: scaleY(0.005) scaleX(0); }
-  50% {
-    transform: scaleY(0.005) scaleX(1); }
-  100% {
-    transform: scaleY(1) scaleX(1); } }
+.main-container .main-container-inner .inner-container main.projects-overview .main-message .individual-project button a {
+    text-align: center;
+    color: #ccc;
+    background: #1d1d20;
+    border: 0 solid #000;
+    padding: 8px 0;
+    font-size: 16px;
+    font-weight: 700;
+    -webkit-text-decoration-line: none;
+    text-decoration-line: none;
+    transition: all .3s ease-in-out;
+    display: block
+}
 
-@keyframes unfoldOut {
-  0% {
-    transform: scaleY(1) scaleX(1); }
-  50% {
-    transform: scaleY(0.005) scaleX(1); }
-  100% {
-    transform: scaleY(0.005) scaleX(0); } }
+@media screen and (max-width: 889px) {
+    .main-container .main-container-inner .inner-container main.projects-overview .main-message .individual-project button a {
+        padding:10px;
+        font-size: 14px
+    }
+}
 
-@keyframes zoomIn {
-  0% {
-    transform: scale(0); }
-  100% {
-    transform: scale(1); } }
-
-@keyframes zoomOut {
-  0% {
-    transform: scale(1); }
-  100% {
-    transform: scale(0); } }
-
-@keyframes fadeIn {
-  0% {
-    background: rgba(0, 0, 0, 0); }
-  100% {
-    background: rgba(0, 0, 0, 0.7); } }
-
-@keyframes fadeOut {
-  0% {
-    background: rgba(0, 0, 0, 0.7); }
-  100% {
-    background: rgba(0, 0, 0, 0); } }
-
-@keyframes scaleUp {
-  0% {
-    transform: scale(0.8) translateY(1000px);
-    opacity: 0; }
-  100% {
-    transform: scale(1) translateY(0px);
-    opacity: 1; } }
-
-@keyframes scaleDown {
-  0% {
-    transform: scale(1) translateY(0px);
-    opacity: 1; }
-  100% {
-    transform: scale(0.8) translateY(1000px);
-    opacity: 0; } }
-
-@keyframes scaleBack {
-  0% {
-    transform: scale(1); }
-  100% {
-    transform: scale(0.85); } }
-
-@keyframes scaleForward {
-  0% {
-    transform: scale(0.85); }
-  100% {
-    transform: scale(1); } }
-
-@keyframes quickScaleDown {
-  0% {
-    transform: scale(1); }
-  99.9% {
-    transform: scale(1); }
-  100% {
-    transform: scale(0); } }
-
-@keyframes slideUpLarge {
-  0% {
-    transform: translateY(0%); }
-  100% {
-    transform: translateY(-100%); } }
-
-@keyframes slideDownLarge {
-  0% {
-    transform: translateY(-100%); }
-  100% {
-    transform: translateY(0%); } }
-
-@keyframes moveUp {
-  0% {
-    transform: translateY(150px); }
-  100% {
-    transform: translateY(0); } }
-
-@keyframes moveDown {
-  0% {
-    transform: translateY(0px); }
-  100% {
-    transform: translateY(150px); } }
-
-@keyframes blowUpContent {
-  0% {
-    transform: scale(1);
-    opacity: 1; }
-  99.9% {
-    transform: scale(2);
-    opacity: 0; }
-  100% {
-    transform: scale(0); } }
-
-@keyframes blowUpContentTwo {
-  0% {
-    transform: scale(2);
-    opacity: 0; }
-  100% {
-    transform: scale(1);
-    opacity: 1; } }
-
-@keyframes blowUpModal {
-  0% {
-    transform: scale(0); }
-  100% {
-    transform: scale(1); } }
-
-@keyframes blowUpModalTwo {
-  0% {
-    transform: scale(1);
-    opacity: 1; }
-  100% {
-    transform: scale(0);
-    opacity: 0; } }
-
-@keyframes roadRunnerIn {
-  0% {
-    transform: translateX(-1500px) skewX(30deg) scaleX(1.3); }
-  70% {
-    transform: translateX(30px) skewX(0deg) scaleX(0.9); }
-  100% {
-    transform: translateX(0px) skewX(0deg) scaleX(1); } }
-
-@keyframes roadRunnerOut {
-  0% {
-    transform: translateX(0px) skewX(0deg) scaleX(1); }
-  30% {
-    transform: translateX(-30px) skewX(-5deg) scaleX(0.9); }
-  100% {
-    transform: translateX(1500px) skewX(30deg) scaleX(1.3); } }
-
-@keyframes sketchIn {
-  0% {
-    stroke-dashoffset: 778; }
-  100% {
-    stroke-dashoffset: 0; } }
-
-@keyframes sketchOut {
-  0% {
-    stroke-dashoffset: 0; }
-  100% {
-    stroke-dashoffset: 778; } }
-
-@keyframes modalFadeIn {
-  0% {
-    background-color: transparent; }
-  100% {
-    background-color: white; } }
-
-@keyframes modalFadeOut {
-  0% {
-    background-color: white; }
-  100% {
-    background-color: transparent; } }
-
-@keyframes modalContentFadeIn {
-  0% {
-    opacity: 0;
-    top: -20px; }
-  100% {
+.main-container .main-container-inner .inner-container main.projects-overview .main-message .individual-project button a:after {
+    content: "";
+    height: 2px;
+    width: 100%;
+    background: linear-gradient(270deg,var(--grad-2)0%,var(--grad-1)100%);
     opacity: 1;
-    top: 0; } }
+    transition: all .3s ease-in-out;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0
+}
 
-@keyframes modalContentFadeOut {
-  0% {
+.main-container .main-container-inner .inner-container main.projects-overview .main-message .individual-project button a:hover {
+    color: #fff
+}
+
+.main-container .main-container-inner .inner-container main.projects-overview .main-message .individual-project button a:hover:after {
+    background: linear-gradient(270deg,var(--grad-1)0%,var(--grad-2)100%)
+}
+
+.main-container .main-container-inner .inner-container main.projects-overview.projects-overview-hide .main-message .welcome-message {
+    opacity: 0;
+    transform: scaleX(0)
+}
+
+.main-container .main-container-inner .inner-container main.projects-overview.projects-overview-hide .main-message .individual-project.individual-project-show {
     opacity: 1;
-    top: 0px; }
-  100% {
-    opacity: 0;
-    top: -20px; } }
+    transform: scaleX(1)
+}
 
-@keyframes bondJamesBond {
-  0% {
-    transform: translateX(1000px); }
-  80% {
-    transform: translateX(0px);
-    border-radius: 75px;
-    height: 75px;
-    width: 75px; }
-  90% {
-    border-radius: 3px;
-    height: 182px;
-    width: 247px; }
-  100% {
-    border-radius: 3px;
-    height: 162px;
-    width: 227px; } }
+.main-container .main-container-inner .inner-container footer {
+    width: 100%;
+    text-align: center;
+    padding: 35px 0 27px;
+    font-size: 14px;
+    position: relative
+}
 
-@keyframes killShot {
-  0% {
-    transform: translateY(0) rotate(0deg);
-    opacity: 1; }
-  100% {
-    transform: translateY(300px) rotate(45deg);
-    opacity: 0; } }
-
-@keyframes fadeToRed {
-  0% {
-    background-color: rgba(0, 0, 0, 0.6); }
-  100% {
-    background-color: rgba(255, 0, 0, 0.8); } }
-
-@keyframes slowFade {
-  0% {
-    opacity: 1; }
-  99.9% {
-    opacity: 0;
-    transform: scale(1); }
-  100% {
-    transform: scale(0); } }
-
+@media screen and (min-width: 500px) {
+    .main-container .main-container-inner .inner-container footer {
+        text-align:right
+    }
+}

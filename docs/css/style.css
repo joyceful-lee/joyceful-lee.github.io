@@ -383,14 +383,7 @@ h1,h2 {
     position: relative
 }
 
-.main-container .main-container-inner .inner-container main.projects-overview .main-message span:before {
-    content: " ";
-    width: 2px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: -30px
-}
+
 
 .main-container .main-container-inner .inner-container main.projects-overview .main-projects {
     flex-basis: 30.9017%
@@ -409,22 +402,9 @@ h1,h2 {
     position: relative
 }
 
-.main-container .main-container-inner .inner-container main.projects-overview .main-projects div.project-wrapper:before {
-    content: " ";
-    width: 90px;
-    height: 90px;
-    opacity: 1;
-    border-top-left-radius: 8px;
-    transition: all .3s ease-in-out;
-    position: absolute;
-    top: -2px;
-    bottom: 0;
-    left: -2px
-}
 
-.main-container .main-container-inner .inner-container main.projects-overview .main-projects div.project-wrapper:hover:before {
-    opacity: 0
-}
+
+
 
 .main-container .main-container-inner .inner-container main.projects-overview .main-projects div.project-wrapper:after {
     content: " ";
@@ -474,22 +454,9 @@ h1,h2 {
     position: relative
 }
 
-.main-container .main-container-inner .inner-container main.projects-overview .main-projects div.project-wrapper div a span:before {
-    content: "";
-    height: 1px;
-    width: 100%;
-    opacity: 1;
-    transition: all .3s ease-in-out;
-    display: inline-block;
-    position: absolute;
-    bottom: -2px;
-    left: 0;
-    right: 0
-}
 
-.main-container .main-container-inner .inner-container main.projects-overview .main-projects div.project-wrapper div a:hover span:before {
-    opacity: 0
-}
+
+
 
 .main-container .main-container-inner .inner-container main.projects-overview .main-projects div.project-wrapper div a span:after {
     content: "";

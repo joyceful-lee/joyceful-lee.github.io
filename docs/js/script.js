@@ -93,7 +93,7 @@
         t("normalize.css"),
         t("../scss/index.scss"),
         t("regenerator-runtime/runtime");
-        var n = t("@dunks1980/inline.svg");
+        var n = t("");
         function o(t, e) {
             return Math.floor(Math.random() * (e - t + 1) + t)
         }
@@ -177,7 +177,7 @@
             ))
         }
         ));
-        let g = `©${(new Date).getFullYear()} dunks1980.com`;
+        let g = `${(new Date).getFullYear()} Joyce`;
         document.querySelector("footer").innerHTML = g;
         const b = async t=>{
             for (; null === document.querySelector(t); )
@@ -282,7 +282,7 @@
         "normalize.css": "gBgZm",
         "../scss/index.scss": "lF1L3",
         "regenerator-runtime/runtime": "kuNhv",
-        "@dunks1980/inline.svg": "icdfH"
+        "": "icdfH"
     }],
     ietuO: [function(t, e, r) {
         "use strict";

@@ -409,7 +409,6 @@ h1,h2 {
 .main-container .main-container-inner .inner-container main.projects-overview .main-message span:before {
     content: " ";
     width: 2px;
-    background: linear-gradient(0deg,var(--grad-2)0%,var(--grad-1)100%);
     position: absolute;
     top: 0;
     bottom: 0;
@@ -437,7 +436,6 @@ h1,h2 {
     content: " ";
     width: 90px;
     height: 90px;
-    background: linear-gradient(135deg,var(--grad-1)0%,var(--grad-2)50%,var(--grad-1)100%);
     opacity: 1;
     border-top-left-radius: 8px;
     transition: all .3s ease-in-out;
@@ -455,7 +453,6 @@ h1,h2 {
     content: " ";
     width: 90px;
     height: 90px;
-    background: linear-gradient(135deg,var(--grad-2)0%,var(--grad-1)50%,var(--grad-2)100%);
     opacity: 0;
     border-top-left-radius: 8px;
     transition: all .3s ease-in-out;
@@ -504,7 +501,6 @@ h1,h2 {
     content: "";
     height: 1px;
     width: 100%;
-    background: linear-gradient(270deg,var(--grad-2)0%,var(--grad-1)100%);
     opacity: 1;
     transition: all .3s ease-in-out;
     display: inline-block;
@@ -522,7 +518,6 @@ h1,h2 {
     content: "";
     height: 1px;
     width: 100%;
-    background: linear-gradient(270deg,var(--grad-1)0%,var(--grad-2)100%);
     opacity: 0;
     transition: all .3s ease-in-out;
     display: inline-block;
@@ -605,7 +600,6 @@ h1,h2 {
     content: "";
     height: 2px;
     width: 100%;
-    background: linear-gradient(270deg,var(--grad-2)0%,var(--grad-1)100%);
     opacity: 1;
     transition: all .3s ease-in-out;
     display: block;
@@ -620,7 +614,6 @@ h1,h2 {
 }
 
 .main-container .main-container-inner .inner-container main.projects-overview .main-message .individual-project button a:hover:after {
-    background: linear-gradient(270deg,var(--grad-1)0%,var(--grad-2)100%)
 }
 
 .main-container .main-container-inner .inner-container main.projects-overview.projects-overview-hide .main-message .welcome-message {

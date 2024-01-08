@@ -41,61 +41,6 @@
         opacity: 0
       }
 
-      [data-name=corner-bottom-right],
-      [data-name=corner-top-left] {
-        opacity: 1;
-        width: 100px;
-        height: 100px;
-        transition: all ease-in-out;
-        position: absolute
-      }
-
-      [data-name=corner-top-left] {
-        top: 0;
-        left: 0
-      }
-
-      [data-name=corner-bottom-right] {
-        opacity: 0;
-        bottom: 0;
-        right: 0
-      }
-
-      .not-loaded [data-name=corner-top-left],
-      .not-loaded [data-name=corner-bottom-right] {
-        opacity: 0 !important;
-        width: 0 !important;
-        height: 0 !important
-      }
-
-      @media screen and (min-width:500px) {
-
-        [data-name=corner-bottom-right],
-        [data-name=corner-top-left] {
-          width: 300px;
-          height: 300px;
-          opacity: 1
-        }
-      }
-
-      .gradient1 {
-        stop-color: var(--grad-1);
-        transition: all .3s ease-in-out
-      }
-
-      .gradient2 {
-        stop-color: var(--grad-2);
-        transition: all .3s ease-in-out
-      }
-
-      .hover .gradient1 {
-        stop-color: var(--grad-2)
-      }
-
-      .hover .gradient2 {
-        stop-color: var(--grad-1)
-      }
-
     </style>
     <link rel="stylesheet" href="/docs/css/style.css">
     <script src="/docs/js/script.js" defer=""></script>

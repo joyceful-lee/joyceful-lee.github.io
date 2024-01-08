@@ -303,30 +303,6 @@ h1,h2 {
     fill: #ccc
 }
 
-.main-container .main-container-inner .inner-container header ul .npm svg {
-    transition: all .2s ease-in-out
-}
-
-.main-container .main-container-inner .inner-container header ul .npm svg #Selection1 {
-    fill: #777
-}
-
-.main-container .main-container-inner .inner-container header ul .npm svg #Selection2 {
-    fill: #0000
-}
-
-.main-container .main-container-inner .inner-container header ul .npm svg:hover {
-    transform: scale(1.2)
-}
-
-.main-container .main-container-inner .inner-container header ul .npm svg:hover #Selection1 {
-    fill: #fff
-}
-
-.main-container .main-container-inner .inner-container header ul .npm svg:hover #Selection2 {
-    fill: red
-}
-
 .main-container .main-container-inner .inner-container header ul a {
     color: #ccc;
     margin-left: 30px;
